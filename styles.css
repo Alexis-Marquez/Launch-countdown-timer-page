@@ -31,7 +31,7 @@
 }
 .title {
   color: var(--White);
-  font-size: 1em;
+  font-size: 0.7em;
   letter-spacing: 5px;
   position: fixed;
   top: 5em;
@@ -53,17 +53,9 @@ img {
   width: 100%;
   justify-content: center;
 }
-.card > h4 {
-  font-size: 2em;
-  background-color: var(--Dark_desaturated_blue);
-  padding: 0.5em 0;
-  margin-block: 1em;
-  width: 3em;
-  border-radius: 0.4em;
-  box-shadow: 0 10px hsl(234, 17%, 8%);
-}
 .number {
   color: var(--Primary_soft_red);
+  font-size: 2.5em;
 }
 .attribution,
 a {
@@ -74,6 +66,24 @@ a {
 p {
   color: var(--Primary_grayish_blue);
   text-transform: uppercase;
-  font-size: 0.6em;
+  font-size: 0.5em;
   letter-spacing: 5px;
+}
+.top {
+  border-radius: 0.2em 0.2em 0.6em 0.6em;
+  background-color: hsl(236, 21%, 19%);
+  padding: 0.8em 0.8em;
+  width: 5em;
+  height: 2.5em;
+  margin-bottom: 0;
+}
+.bottom {
+  height: 2.5em;
+  margin-top: 1px;
+  border-radius: 0.6em 0.6em 0.2em 0.2em;
+  background-color: hsl(236, 21%, 23%);
+  padding: 1em 2em;
+  width: 5em;
+  box-shadow: 0 10px hsl(234, 17%, 8%);
+  margin-bottom: 1em;
 }
